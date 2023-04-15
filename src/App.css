@@ -1,0 +1,45 @@
+@keyframes animatedBackground {
+   0% {
+     background-position: 0% 50%;
+   }
+   50% {
+     background-position: 100% 50%;
+   }
+   100% {
+     background-position: 0% 50%;
+   }
+ }
+ 
+ .App {
+   background-image: url('./components/RICKFONDO.jpg'); 
+   background-size: cover;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-attachment: fixed; 
+   color: #535dbb; 
+   height: 100vh; 
+   display: flex; 
+   justify-content: center; 
+   align-items: center;
+   font-family: 'Arial', sans-serif; 
+   animation: animatedBackground 10s infinite; 
+ }
+
+
+.App h1 {
+   font-size: 36px; 
+   margin-bottom: 30px;
+}
+
+.App p {
+   margin-bottom: 20px; 
+}
+
+.App a {
+   color: #00b0f0;
+   text-decoration: none; 
+}
+
+.App a:hover {
+   color: #0080c0; 
+}

@@ -1,0 +1,30 @@
+.nav-button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: gold;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin-right: 10px;
+  }
+  
+  .nav-button:hover {
+    background-color: darkgoldenrod;
+  }
+  
+  .nav-button:focus {
+    outline: 2px solid black;
+  }
+  
+  .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    background-color: #fff; 
+    z-index: 999; 
+    padding: 10px 20px;
+    }

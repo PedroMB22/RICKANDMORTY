@@ -1,0 +1,42 @@
+.form {
+  border: 1px solid grey;
+  padding: 40px;
+  background-color: lightgrey;
+  width: 20%;
+  }
+
+.label {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 100%;
+  padding: 5px;
+  background-color: yellow;
+}
+#email {
+  margin-bottom: 30px; 
+}
+
+.button {
+  margin-top: 20px;
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.error {
+  border: 1px solid red; 
+}
+
+.error-message {
+  color: red; 
+  margin-top: 0.5rem; 
+  font-weight: bold;
+  font-size: 15px;
+}
